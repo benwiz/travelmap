@@ -1,14 +1,21 @@
-function createMarker(map, location) {
-  var marker = new google.maps.Marker({
+function createMarker(map, location, isLast) {
+  var options = {
     map: map,
     position: { lat: location.lat, lng: location.lng },
     title: location.name,
-  });
+  };
+
+  if (isLast) {
+    options.animation = google.maps.Animation.BOUNCE;
+  }
+
+  var marker = new google.maps.Marker(options);
 }
 
 function createMarkers(map, locations) {
-  locations.forEach(function(location) {
-    createMarker(map, location);
+  locations.forEach(function(location, i) {
+    var isLast = i === locations.length - 1;
+    createMarker(map, location, isLast);
   });
 }
 

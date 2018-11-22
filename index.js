@@ -1,22 +1,22 @@
 function createMarker(map, location, isLast) {
   var options = {
-    strokeColor: isLast ? '#0000FF' : '#FF0000',
-    strokeOpacity: 0.8,
-    strokeWeight: 2,
-    fillColor: isLast ? '#0000FF' : '#FF0000',
-    fillOpacity: 0.35,
     map: map,
-    center: { lat: location.lat, lng: location.lng },
-    radius: 75000,
+    position: { lat: location.lat, lng: location.lng },
+    title: location.name,
   };
+  if (isLast) {
+    options.animation = google.maps.Animation.DROP;
+  }
 
-  var marker = new google.maps.Circle(options);
+  var marker = new google.maps.Marker(options);
+  return marker;
 }
 
 function createMarkers(map, locations) {
-  locations.forEach(function(location, i) {
+  locations.map(function(location, i) {
     var isLast = i === locations.length - 1;
-    createMarker(map, location, isLast);
+    var marker = createMarker(map, location, isLast);
+    return marker;
   });
 }
 

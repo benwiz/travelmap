@@ -23,3 +23,21 @@ locations:
   - name: Hong Kong
     lat: 22.3964
     lng: 114.1095
+  - name: Kuta
+    lat: -8.7224
+    lng: 115.1767
+  - name: Canggu
+    lat: -8.6478
+    lng: 115.1385
+  - name: Uluwatu
+    lat: -8.8291
+    lng: 115.0849
+  - name: Ubud
+    lat: -8.5069
+    lng: 115.2625
+  - name: Gili Trawangan
+    lat: -8.3483
+    lng: 116.0384
+  - name: Labuan Bajo
+    lat: -8.4538
+    lng: 119.8728

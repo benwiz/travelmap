@@ -2,8 +2,24 @@ locations:
   - name: San Francisco
     lat: 37.803036
     lng: -122.427451
-    first_visited: 1993-07-30 # not sure what date format I want here
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958
-    first_visited: 2011-28-08
+  - name: Beijing
+    lat: 39.9042
+    lng: 116.4074
+  - name: Qingdao
+    lat: 36.0671
+    lng: 120.3826
+  - name: Suzhou
+    lat: 31.2990
+    lng: 120.5853
+  - name: Shanghai
+    lat: 31.2304
+    lng: 121.4737
+  - name: Seoul
+    lat: 37.5665
+    lng: 126.9780
+  - name: Hong Kong
+    lat: 22.3964
+    lng: 114.1095

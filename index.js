@@ -1,10 +1,14 @@
-var map; // TODO: Make not global.
-
-function createMarker(location) {
+function createMarker(map, location) {
   var marker = new google.maps.Marker({
     map: map,
     position: { lat: location.lat, lng: location.lng },
     title: location.name,
+  });
+}
+
+function createMarkers(map, locations) {
+  locations.forEach(function(location) {
+    createMarker(map, location);
   });
 }
 
@@ -21,5 +25,5 @@ function initMap() {
   });
 
   // For each location, create a marker
-  locations.forEach(createMarker);
+  createMarkers(map, locations);
 }

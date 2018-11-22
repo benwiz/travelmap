@@ -16,6 +16,8 @@ function initMap() {
   var parsedYaml = YAML.load('locations.yml');
   var locations = parsedYaml.locations;
 
+  // TODO: Sort locations by `first_visited` date
+
   // Create map
   var lastLocation = locations[locations.length - 1];
   var center = { lat: lastLocation.lat, lng: lastLocation.lng };

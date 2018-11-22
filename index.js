@@ -1,17 +1,25 @@
-function initMap() {
-  var myLatLng = { lat: -25.363, lng: 131.044 };
+var map; // TODO: Make not global.
 
-  // Create a map object and specify the DOM element
-  // for display.
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: myLatLng,
+function createMarker(location) {
+  var marker = new google.maps.Marker({
+    map: map,
+    position: { lat: location.lat, lng: location.lng },
+    title: location.name,
+  });
+}
+
+function initMap() {
+  var parsedYaml = YAML.load('locations.yml');
+  var locations = parsedYaml.locations;
+
+  // Create map
+  var lastLocation = locations[locations.length - 1];
+  var center = { lat: lastLocation.lat, lng: lastLocation.lng };
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: center,
     zoom: 4,
   });
 
-  // Create a marker and set its position.
-  var marker = new google.maps.Marker({
-    map: map,
-    position: myLatLng,
-    title: 'Hello World!',
-  });
+  // For each location, create a marker
+  locations.forEach(createMarker);
 }

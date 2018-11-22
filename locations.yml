@@ -1,0 +1,9 @@
+locations:
+  - name: San Francisco
+    lat: 37.803036
+    lng: -122.427451 # maybe have lat and lng mixed up
+    first_visited: 30/07/1993
+  - name: New Orleans
+    lat: 29.938749
+    lng: -90.118958
+    first_visited: 28/08/2011

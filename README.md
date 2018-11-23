@@ -14,3 +14,4 @@ Map of my travels
 - Figure out overland data
 - Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
   - Better markers
+- Ask Grandma about locations we visited in Denmark

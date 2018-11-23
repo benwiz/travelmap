@@ -13,31 +13,44 @@ locations:
     lat: 19.5429
     lng: -155.6659
   - name: Atlanta
-    lat: 33.7490° N, 84.3880
+    lat: 33.7490
+    lng: -84.3880
   - name: Nashville
-    lat: 36.1627° N, 86.7816
+    lat: 36.1627
+    lng: -86.7816
   - name: Columbia
-    lat: 34.0007° N, 81.0348
+    lat: 34.0007
+    lng: -81.0348
   - name: Charleston
-    lat: 32.7765° N, 79.9311
+    lat: 32.7765
+    lng: -79.9311
   - name: Savannah
-    lat: 32.0809° N, 81.0912
+    lat: 32.0809
+    lng: -81.0912
   - name: Destin
-    lat: 30.3935° N, 86.4958
+    lat: 30.3935
+    lng: -86.4958
   - name: Key West
-    lat: 24.5551° N, 81.7800
+    lat: 24.5551
+    lng: -81.7800
   - name: Asheville
-    lat: 35.5951° N, 82.5515
+    lat: 35.5951
+    lng: -82.5515
   - name: Washington, D.C.
-    lat: 38.9072° N, 77.0369
+    lat: 38.9072
+    lng: -77.0369
   - name: Philadelphia
-    lat: 39.9526° N, 75.1652
+    lat: 39.9526
+    lng: -75.1652
   - name: New York City
-    lat: 40.7128° N, 74.0060
+    lat: 40.7128
+    lng: -74.0060
   - name: Boston
-    lat: 42.3601° N, 71.0589
+    lat: 42.3601
+    lng: -71.0589
   - name: Edgartown
-    lat: 41.3890° N, 70.5134
+    lat: 41.3890
+    lng: -70.5134
   # MEXICO
   - name: Cabo San Lucas
     lat: 22.8905

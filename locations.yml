@@ -12,7 +12,33 @@ locations:
   - name: Big Island
     lat: 19.5429
     lng: 155.6659
-  - name:
+  # ROMANIA
+  - name: Bucharest
+    lat: 44.4268
+    lng: 26.1025
+  # ENGLAND
+  - name: London
+    lat: 51.5074
+    lng: -0.1278
+  - name: Brighton
+    lat: 50.8225
+    lng: -0.1372
+  # SCOTLAND
+  - name: Edinburgh
+    lat: 55.9533
+    lng: -3.1883
+  - name: St Andrews
+    lat: 56.3398
+    lng: -2.7967
+  - name: Islay
+    lat: 55.7363
+    lng: -6.1771
+  - name: Glasgow
+    lat: 55.8642
+    lng: -4.2518
+  - name: Stirling
+    lat: 56.1165
+    lng: -3.9369
   # AUSTRALIA
   - name: Sydney
     lat: -33.8688

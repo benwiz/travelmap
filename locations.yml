@@ -75,6 +75,9 @@ locations:
   - name: Portland
     lat: 45.5122
     lng: -122.6587
+  - name: Bend
+    lat: 44.0582
+    lng: -121.3153
   - name: Livingston
     lat: 45.6614
     lng: -110.5600
@@ -84,6 +87,12 @@ locations:
   - name: Deer Valley
     lat: 40.6374
     lng: -111.4783
+  - name: Arches National Park
+    lat: 38.7331
+    lng: -109.5925
+  - name: Zion National Park
+    lat: 37.2982
+    lng: -113.0263
   - name: Las Vegas
     lat: 36.1699
     lng: -115.1398
@@ -105,6 +114,18 @@ locations:
   - name: Telluride
     lat: 37.9375
     lng: -107.8123
+  - name: Santa Fe
+    lat: 35.6870
+    lng: -105.9378
+  - name: Austin
+    lat: 30.2672
+    lng: -97.7431
+  - name: Petrified Forest National Park
+    lat: 34.9100
+    lng: -109.8068
+  - name: Needles
+    lat: 34.8481
+    lng: -114.6141
   # MEXICO
   - name: Cabo San Lucas
     lat: 22.8905

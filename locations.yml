@@ -3,6 +3,48 @@ locations:
   - name: San Francisco
     lat: 37.803036
     lng: -122.427451
+  - name: Needles
+    lat: 34.8481
+    lng: -114.6141
+  - name: San Diego
+    lat: 32.7157
+    lng: -117.1611
+  - name: Palm Desert
+    lat: 33.7222
+    lng: -116.3745
+  - name: Death Valley
+    lat: 36.5323
+    lng: -116.9325
+  - name: Disneyland
+    lat: 33.8121
+    lng: -117.9190
+  - name: Manhattan Beach
+    lat: 33.8847
+    lng: -118.4109
+  - name: Santa Barbara
+    lat: 34.4208
+    lng: -119.6982
+  - name: Cambria
+    lat: 35.5641
+    lng: -121.0807
+  - name: Yosemite National Park
+    lat: 37.8651
+    lng: -119.5383
+  - name: Monterey
+    lat: 36.6002
+    lng: -121.8947
+  - name: Santa Cruz
+    lat: 36.9741
+    lng: -122.0308
+  - name: San Jose
+    lat: 37.3382
+    lng: -121.8863
+  - name: Pescadero
+    lat: 37.2552
+    lng: -122.3830
+  - name: Half Moon Bay
+    lat: 37.4636
+    lng: -122.4286
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958
@@ -123,9 +165,6 @@ locations:
   - name: Petrified Forest National Park
     lat: 34.9100
     lng: -109.8068
-  - name: Needles
-    lat: 34.8481
-    lng: -114.6141
   # MEXICO
   - name: Cabo San Lucas
     lat: 22.8905

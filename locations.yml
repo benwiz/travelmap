@@ -62,6 +62,25 @@ locations:
   - name: Waitomo Caves
     lat: -38.2615
     lng: 175.1145
+  # ISRAEL
+  - name: Tel Aviv
+    lat: 32.0853
+    lng: 34.7818
+  - name: Golan Heights
+    lat: 33.149390
+    lng: 35.583166
+  - name: Jerusalem
+    lat: 31.7683
+    lng: 35.2137
+  - name: Be'er Sheva
+    lat: 31.2530
+    lng: 34.7915
+  - name: Dead Sea
+    lat: 31.5590
+    lng: 35.4732
+  - name: Masada
+    lat: 31.3158
+    lng: 35.3556
   # CHINA
   - name: Beijing
     lat: 39.9042

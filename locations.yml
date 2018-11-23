@@ -6,6 +6,31 @@ locations:
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958
+  # AUSTRALIA
+  - name: Sydney
+    lat: -33.8688
+    lng: 151.2093
+  - name: Melbourne
+    lat: -37.8136
+    lng: 144.9631
+  - name: Byron Bay
+    lat: -28.6474
+    lng: 153.6020
+  - name: Coles Bay
+    lat: -42.0811
+    lng: 148.2332
+  - name: Hobart
+    lat: -42.8821
+    lng: 147.3272
+  - name: Cairns
+    lat: -16.9186
+    lng: 145.7781
+  - name: Airlie Beach
+    lat: -20.2675
+    lng: 148.7169
+  - name: Nimbin
+    lat: -28.5958
+    lng: 153.2231
   # CHINA
   - name: Beijing
     lat: 39.9042
@@ -66,6 +91,9 @@ locations:
   - name: Yogyakarta
     lat: -7.7956
     lng: 110.3695
+  - name: Probolinggo
+    lat: -7.7764
+    lng: 113.2037
   - name: Ijen
     lat: -8.0584
     lng: 114.2433
@@ -109,3 +137,22 @@ locations:
   - name: Singapore
     lat: 1.3521
     lng: 103.8198
+  # VIETNAM
+  - name: Ho Chi Minh City
+    lat: 10.8231
+    lng: 106.6297
+  - name: Hoi An
+    lat: 15.8801
+    lng: 108.3380
+  - name: Phong Nha
+    lat: 17.5908
+    lng: 106.2834
+  - name: Sa Pa
+    lat: 22.3364
+    lng: 103.8438
+  - name: Ha Long Bay
+    lat: 20.857795
+    lng: 107.079010
+  - name: Hanoi
+    lat: 21.0278
+    lng: 105.8342

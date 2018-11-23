@@ -39,7 +39,7 @@ function initMap() {
 
   // Add a marker clusterer to manage the markers.
   var clusterOptions = {
-    gridSize: 25,
+    gridSize: 15,
     // maxZoom: 0,
     // zoomOnClick: true,
     // imagePath: '../images/m',

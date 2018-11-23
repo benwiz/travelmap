@@ -37,8 +37,15 @@ function initMap() {
   var markers = createMarkers(map, locations);
 
   // Add a marker clusterer to manage the markers.
-  var markerCluster = new MarkerClusterer(map, markers, {
-    imagePath:
-      'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
-  });
+  var clusterOptions = {
+    gridSize: 25,
+    // maxZoom: 0,
+    // zoomOnClick: true,
+    // imagePath: '../images/m',
+    // imageExtension: 'png',
+    averageCenter: true,
+    // minimumClusterSize: 2,
+    // styles: {},
+  };
+  var markerCluster = new MarkerClusterer(map, markers, clusterOptions);
 }

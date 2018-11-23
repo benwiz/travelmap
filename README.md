@@ -11,4 +11,3 @@ Map of my travels
 
 ## To Do
 
-- Use clustering

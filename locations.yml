@@ -82,7 +82,32 @@ locations:
   - name: Bucharest
     lat: 44.4268
     lng: 26.1025
-  # FRANCE (TODO)
+  # FRANCE
+  # I'm missing one or two places in central France.
+  - name: Paris
+    lat: 48.8566
+    lng: 2.3522
+  - name: Normandy
+    lat: 48.8799
+    lng: 0.1713
+  - name: Biarritz
+    lat: 43.4832
+    lng: -1.5586
+  - name: Montauban
+    lat: 44.0221
+    lng: 1.3530
+  - name: Aix-en-Provence
+    lat: 43.5297
+    lng: 5.4474
+  - name: Avignon
+    lat: 43.9493
+    lng: 4.8055
+  - name: Marseille
+    lat: 43.2965
+    lng: 5.3698
+  - name: Mont Saint-Michel
+    lat: 48.6361
+    lng: -1.5115
   # ITALY
   - name: Rome
     lat: 41.9028

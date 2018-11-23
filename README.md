@@ -15,3 +15,4 @@ Map of my travels
 - Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
   - Better markers
 - Ask Grandma about locations we visited in Denmark
+- Ask Mom about locations we visited in France. I think I'm missing one or two places in central France.

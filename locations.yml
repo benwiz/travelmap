@@ -8,10 +8,70 @@ locations:
     lng: -90.118958
   - name: Maui
     lat: 20.7984
-    lng: 156.3319
+    lng: -156.3319
   - name: Big Island
     lat: 19.5429
-    lng: 155.6659
+    lng: -155.6659
+  - name: Atlanta
+    lat: 33.7490° N, 84.3880
+  - name: Nashville
+    lat: 36.1627° N, 86.7816
+  - name: Columbia
+    lat: 34.0007° N, 81.0348
+  - name: Charleston
+    lat: 32.7765° N, 79.9311
+  - name: Savannah
+    lat: 32.0809° N, 81.0912
+  - name: Destin
+    lat: 30.3935° N, 86.4958
+  - name: Key West
+    lat: 24.5551° N, 81.7800
+  - name: Asheville
+    lat: 35.5951° N, 82.5515
+  - name: Washington, D.C.
+    lat: 38.9072° N, 77.0369
+  - name: Philadelphia
+    lat: 39.9526° N, 75.1652
+  - name: New York City
+    lat: 40.7128° N, 74.0060
+  - name: Boston
+    lat: 42.3601° N, 71.0589
+  - name: Edgartown
+    lat: 41.3890° N, 70.5134
+  # MEXICO
+  - name: Cabo San Lucas
+    lat: 22.8905
+    lng: -109.9167
+  - name: San Jose del Cabo
+    lat: 23.0637
+    lng: -109.7024
+  - name: Playa del Carmen
+    lat: 20.6296
+    lng: -87.0739
+  # USVI
+  - name: St. Thomas
+    lat: 18.3381
+    lng: -64.8941
+  # BAHAMAS
+  - name: Atlantis Resort
+    lat: 25.0847
+    lng: -77.3235
+  # PANAMA
+  - name: Panama City
+    lat: 8.9824
+    lng: -79.5199
+  # BELIZE
+  - name: Belize City
+    lat: 17.5046
+    lng: -88.1962
+  - name: Blue Hole
+    lat: 17.3160
+    lng: -87.5351
+  # COSTA RICA
+  # I'm missing a lot of Costa Rica.
+  - name: San Jose
+    lat: 37.3382
+    lng: -121.8863
   # ENGLAND
   - name: London
     lat: 51.5074

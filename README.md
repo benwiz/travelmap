@@ -14,5 +14,10 @@ Map of my travels
 - Figure out overland data
 - Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
   - Better markers
-- Ask Grandma about locations we visited in Denmark
-- Ask Mom about locations we visited in France. I think I'm missing one or two places in central France.
+
+- Locations
+  - Ask Grandma about locations we visited in Denmark
+  - Ask Mom about locations we visited in France - I think I'm missing one or two places in central France
+  - Ask Mom about locations we visited in Costa Rica
+  - Check one of my old passports for the various Carribbean islands
+  - Ask Dad which Florida key we were on for Grandma's birthday, currently set to Key West

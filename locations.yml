@@ -6,6 +6,13 @@ locations:
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958
+  - name: Maui
+    lat: 20.7984
+    lng: 156.3319
+  - name: Big Island
+    lat: 19.5429
+    lng: 155.6659
+  - name:
   # AUSTRALIA
   - name: Sydney
     lat: -33.8688

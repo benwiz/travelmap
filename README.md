@@ -10,6 +10,6 @@ Map of my travels
 
 ## To Do
 
-- Better markers
 - Add the rest of the cities
 - Figure out overland data
+- Better markers

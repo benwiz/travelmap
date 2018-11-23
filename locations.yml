@@ -1,10 +1,12 @@
 locations:
+  # USA
   - name: San Francisco
     lat: 37.803036
     lng: -122.427451
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958
+  # CHINA
   - name: Beijing
     lat: 39.9042
     lng: 116.4074
@@ -17,12 +19,17 @@ locations:
   - name: Shanghai
     lat: 31.2304
     lng: 121.4737
-  - name: Seoul
-    lat: 37.5665
-    lng: 126.9780
+  - name: Xi An
+    lat: 34.3416
+    lng: 108.9398
   - name: Hong Kong
     lat: 22.3964
     lng: 114.1095
+  # SOUTH KOREA
+  - name: Seoul
+    lat: 37.5665
+    lng: 126.9780
+  # INDONESIA
   - name: Kuta
     lat: -8.7224
     lng: 115.1767
@@ -41,3 +48,64 @@ locations:
   - name: Labuan Bajo
     lat: -8.4538
     lng: 119.8728
+  - name: Bajawa
+    lat: -8.8033
+    lng: 120.9647
+  - name: Kelimutu
+    lat: -8.7689
+    lng: 121.8221
+  - name: Maumere
+    lat: -8.6246
+    lng: 122.2147
+  - name: Kupang
+    lat: -10.1772
+    lng: 123.6070
+  - name: Surabaya
+    lat: -7.2575
+    lng: 112.7521
+  - name: Yogyakarta
+    lat: -7.7956
+    lng: 110.3695
+  - name: Ijen
+    lat: -8.0584
+    lng: 114.2433
+  # MYANMAR
+  - name: Yangon
+    lat: 16.8661
+    lng: 96.1951
+  - name: Bagan
+    lat: 21.1717
+    lng: 94.8585
+  - name: Shwenyaung
+    lat: 20.7644
+    lng: 96.9410
+  # LAOS
+  - name: Luang Prabang
+    lat: 20.0656
+    lng: 102.6216
+  - name: Nong Khiaw
+    lat: 20.5710
+    lng: 102.6116
+  - name: Vang Vieng
+    lat: 18.9501
+    lng: 102.4438
+  - name: Vientiane
+    lat: 17.9757
+    lng: 102.6331
+  # THAILAND
+  - name: Bangkok
+    lat: 13.7563
+    lng: 100.5018
+  - name: Sukhothai
+    lat: 17.0056
+    lng: 99.8264
+  - name: Chiang Mai
+    lat: 18.7061
+    lng: 98.9817
+  - name: Pai
+    lat: 19.3582
+    lng: 98.4405
+  # SINGAPORE
+  - name: Singapore
+    lat: 1.3521
+    lng: 103.8198

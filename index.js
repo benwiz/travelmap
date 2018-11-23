@@ -3,6 +3,7 @@ function createMarker(map, location, isLast) {
     map: map,
     position: { lat: location.lat, lng: location.lng },
     title: location.name,
+    // icon: 'images/circle.png',
   };
   if (isLast) {
     options.animation = google.maps.Animation.DROP;

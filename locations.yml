@@ -3,6 +3,9 @@ locations:
   - name: San Francisco
     lat: 37.803036
     lng: -122.427451
+  - name: Hillsborough
+    lat: 36.0754
+    lng: -79.0997
   - name: Needles
     lat: 34.8481
     lng: -114.6141
@@ -45,6 +48,9 @@ locations:
   - name: Half Moon Bay
     lat: 37.4636
     lng: -122.4286
+  - name: Pacifica
+    lat: 37.6138
+    lng: -122.4869
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958

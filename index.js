@@ -37,16 +37,16 @@ function initMap() {
   // For each location, create a marker
   var markers = createMarkers(map, locations);
 
-  // Add a marker clusterer to manage the markers.
-  var clusterOptions = {
-    gridSize: 15,
-    // maxZoom: 0,
-    // zoomOnClick: true,
-    // imagePath: '../images/m',
-    // imageExtension: 'png',
-    averageCenter: true,
-    // minimumClusterSize: 2,
-    // styles: {},
-  };
-  var markerCluster = new MarkerClusterer(map, markers, clusterOptions);
+  // // Add a marker clusterer to manage the markers.
+  // var clusterOptions = {
+  //   gridSize: 15,
+  //   // maxZoom: 0,
+  //   // zoomOnClick: true,
+  //   // imagePath: '../images/m',
+  //   // imageExtension: 'png',
+  //   averageCenter: true,
+  //   // minimumClusterSize: 2,
+  //   // styles: {},
+  // };
+  // var markerCluster = new MarkerClusterer(map, markers, clusterOptions);
 }

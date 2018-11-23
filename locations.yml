@@ -37,6 +37,31 @@ locations:
   - name: Blue Mountains
     lat: -33.4100
     lng: 150.3037
+  # NEW ZEALAND
+  - name: Christchurch
+    lat: -43.5321
+    lng: 172.6362
+  - name: Aoraki (Mount Cook)
+    lat: -43.5950
+    lng: 170.1418
+  - name: Wanaka
+    lat: -44.7032
+    lng: 169.1321
+  - name: Queenstown
+    lat: -45.0312
+    lng: 168.6626
+  - name: Te Anau
+    lat: -45.4145
+    lng: 167.7181
+  - name: Hobbiton
+    lat: -37.8723
+    lng: 175.6834
+  - name: Aukland
+    lat: -36.8485
+    lng: 174.7633
+  - name: Waitomo Caves
+    lat: -38.2615
+    lng: 175.1145
   # CHINA
   - name: Beijing
     lat: 39.9042

@@ -10,7 +10,7 @@ Map of my travels
 
 ## To Do
 
-- Add the rest of the cities
+- Finish CA
 - Figure out overland data
 - Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
   - Better markers

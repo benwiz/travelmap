@@ -4,10 +4,9 @@ Map of my travels
 
 ## Ideas
 
-- Track `first_visited` date or `last_visited` date, maybe
+- Maybe track dates. Consider `first_visited` or an array of all dates.
 - Have a `trip` array so that markers can be grouped into trips (e.g. "Asia trip with marg")
-- Look into grabbing Overland data and use [marker clustering](https://developers.google.com/maps/documentation/javascript/marker-clustering). But don't get all data, get data within the cities specifically then clean it so it's not overly revealing. Maybe by city. So don't do in Nola, maybe.
-  - **I can import GeoJSON data, which is what Overland uses**
+- Consider importing Overland data, make it so only visible at certain zoom level or just make the dots small enough. Overland data is GeoJSON which should be easy to import. Maybe just want a Python/Node.js script that imports the data then commits to github, eventually maybe lambda and s3, but not to start.
 
 ## To Do
 

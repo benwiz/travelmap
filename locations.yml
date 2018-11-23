@@ -31,6 +31,12 @@ locations:
   - name: Nimbin
     lat: -28.5958
     lng: 153.2231
+  - name: Jervis Bay
+    lat: -35.0481
+    lng: 150.7447
+  - name: Blue Mountains
+    lat: -33.4100
+    lng: 150.3037
   # CHINA
   - name: Beijing
     lat: 39.9042

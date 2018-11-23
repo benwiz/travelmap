@@ -12,4 +12,5 @@ Map of my travels
 
 - Add the rest of the cities
 - Figure out overland data
-- Better markers
+- Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
+  - Better markers

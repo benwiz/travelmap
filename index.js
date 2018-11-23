@@ -13,11 +13,12 @@ function createMarker(map, location, isLast) {
 }
 
 function createMarkers(map, locations) {
-  locations.map(function(location, i) {
+  var markers = locations.map(function(location, i) {
     var isLast = i === locations.length - 1;
     var marker = createMarker(map, location, isLast);
     return marker;
   });
+  return markers;
 }
 
 function initMap() {
@@ -33,5 +34,11 @@ function initMap() {
   });
 
   // For each location, create a marker
-  createMarkers(map, locations);
+  var markers = createMarkers(map, locations);
+
+  // Add a marker clusterer to manage the markers.
+  var markerCluster = new MarkerClusterer(map, markers, {
+    imagePath:
+      'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+  });
 }

@@ -96,6 +96,9 @@ locations:
   - name: Big Sur
     lat: 36.3615
     lng: -121.8563
+  - name: Sierra National Forest
+    lat: 37.3427
+    lng: -119.2244
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958

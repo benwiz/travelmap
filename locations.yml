@@ -72,9 +72,18 @@ locations:
   - name: Charleston
     lat: 32.7765
     lng: -79.9311
+  - name: Hilton Head Island
+    lat: 32.2163
+    lng: -80.7526
   - name: Savannah
     lat: 32.0809
     lng: -81.0912
+  - name: Kiln
+    lat: 30.4091
+    lng: -89.4351
+  - name: Gulf Shores
+    lat: 30.2460
+    lng: -87.7008
   - name: Destin
     lat: 30.3935
     lng: -86.4958
@@ -93,6 +102,27 @@ locations:
   - name: New York City
     lat: 40.7128
     lng: -74.0060
+  - name: Garden City
+    lat: 40.7268
+    lng: -73.6343
+  - name: Port Jefferson
+    lat: 40.9465
+    lng: -73.0693
+  - name: Babylon
+    lat: 40.6432
+    lng: -73.3473
+  - name: Moorestown
+    lat: 39.9689
+    lng: -74.9489
+  - name: Strathmere
+    lat: 39.1952
+    lng: -74.6590
+  - name: Jersey City
+    lat: 40.7178
+    lng: -74.0431
+  - name: Princeton
+    lat: 40.3573
+    lng: -74.6672
   - name: Boston
     lat: 42.3601
     lng: -71.0589
@@ -514,6 +544,16 @@ locations:
   - name: Pai
     lat: 19.3582
     lng: 98.4405
+  # CAMBODIA
+  - name: Phnom Penh
+    lat: 11.5564
+    lng: 104.9282
+  - name: Siem Reap
+    lat: 13.3550
+    lng: 103.8552
+  - name: Koh Rong
+    lat: 10.7291
+    lng: 103.2317
   # SINGAPORE
   - name: Singapore
     lat: 1.3521

@@ -51,6 +51,51 @@ locations:
   - name: Pacifica
     lat: 37.6138
     lng: -122.4869
+  - name: Berkeley
+    lat: 37.8716
+    lng: -122.2727
+  - name: Palo Alto
+    lat: 37.4419
+    lng: -122.1430
+  - name: Concord
+    lat: 37.9780
+    lng: -122.0311
+  - name: Sacramento
+    lat: 38.5816
+    lng: -121.4944
+  - name: Novato
+    lat: 38.1074
+    lng: -122.5697
+  - name: Sonoma
+    lat: 38.2919
+    lng: -122.4580
+  - name: Napa
+    lat: 38.2975
+    lng: -122.2869
+  - name: Yountville
+    lat: 38.4016
+    lng: -122.3608
+  - name: St. Helena
+    lat: 38.5052
+    lng: -122.4704
+  - name: Drake's Bay
+    lat: 38.0138
+    lng: -122.9550
+  - name: Stinson Beach
+    lat: 37.9005
+    lng: -122.6444
+  - name: Redding
+    lat: 40.5865
+    lng: -122.3917
+  - name: Mount Shasta
+    lat: 41.4099
+    lng: -122.1949
+  - name: Lake Tahoe
+    lat: 39.0968
+    lng: -120.0324
+  - name: Big Sur
+    lat: 36.3615
+    lng: -121.8563
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958

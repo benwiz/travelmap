@@ -481,12 +481,24 @@ locations:
   - name: Gili Trawangan
     lat: -8.3483
     lng: 116.0384
+  - name: Komodo
+    lat: -8.5850
+    lng: 119.4411
+  - name: Rinca
+    lat: -8.7329
+    lng: 119.6615
+  - name: Padar
+    lat: -8.6490
+    lng: 119.5833
   - name: Labuan Bajo
     lat: -8.4538
     lng: 119.8728
   - name: Bajawa
     lat: -8.8033
     lng: 120.9647
+  - name: Riung
+    lat: -8.4856
+    lng: 121.0564
   - name: Kelimutu
     lat: -8.7689
     lng: 121.8221

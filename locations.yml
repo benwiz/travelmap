@@ -591,6 +591,9 @@ locations:
   - name: Vientiane
     lat: 17.9757
     lng: 102.6331
+  - name: Phonsavan
+    lat: 19.4521
+    lng: 103.1856
   # THAILAND
   - name: Bangkok
     lat: 13.7563

@@ -594,6 +594,15 @@ locations:
   - name: Phonsavan
     lat: 19.4521
     lng: 103.1856
+  - name: Thakhek
+    lat: 17.4030
+    lng: 104.8338
+  - name: Thalang
+    lat: 17.844515
+    lng: 105.053160
+  - name: Kong Lor
+    lat: 17.9590
+    lng: 104.7549
   # THAILAND
   - name: Bangkok
     lat: 13.7563

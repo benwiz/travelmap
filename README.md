@@ -10,10 +10,12 @@ Map of my travels
 
 ## To Do
 
-- Finish CA
-- Figure out overland data
+- Back button to take back to `benwiz.io`
 - Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
   - Better markers
+
+- Later
+  - Google Timeline or Overland locations
 
 - Locations
   - Ask Grandma about locations we visited in Denmark

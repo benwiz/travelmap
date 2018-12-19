@@ -10,7 +10,7 @@ Map of my travels
 
 ## To Do
 
-- Back button to take back to `benwiz.io`
+- Back button to take back to `benwiz.io` needs to actually look nice
 - Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
   - Better markers
 

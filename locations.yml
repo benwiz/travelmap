@@ -649,3 +649,7 @@ locations:
   - name: Hanoi
     lat: 21.0278
     lng: 105.8342
+  # Colombia
+  - name: Cartagena
+    lat: 10.3910
+    lng: -75.4794

@@ -2,6 +2,20 @@
 
 Map of my travels
 
+## How to run locally
+
+```sh
+http-server
+```
+
+```sh
+open http://localhost:8080
+```
+
+## How to deploy
+
+Just push to master
+
 ## Ideas
 
 - Maybe track dates. Consider `first_visited` or an array of all dates.

@@ -15,9 +15,9 @@ function createMarker(map, location, isLast) {
     }
   };
 
-  if (isLast) {
-    options.animation = google.maps.Animation.DROP;
-  }
+  // if (isLast) {
+  //   options.animation = google.maps.Animation.DROP;
+  // }
 
   var marker = new google.maps.Marker(options);
   return marker;

@@ -2,7 +2,7 @@ function createMarker(map, location, isLast) {
   var options = {
     map: map,
     position: { lat: location.lat, lng: location.lng },
-    title: location.name,
+    title: location.name
     // icon: 'images/circle.png',
   };
   if (isLast) {
@@ -23,15 +23,16 @@ function createMarkers(map, locations) {
 }
 
 function initMap() {
-  var parsedYaml = YAML.load('locations.yml');
+  var parsedYaml = YAML.load("locations.yml");
   var locations = parsedYaml.locations;
 
   // Create map
   var lastLocation = locations[locations.length - 1];
   // var center = { lat: lastLocation.lat, lng: lastLocation.lng };
-  map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 0, lng: 0 },
     zoom: 2,
+    styles: JSON.parse(mapstyle)
   });
 
   // For each location, create a marker

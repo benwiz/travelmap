@@ -8,9 +8,9 @@ function createMarker(map, location, isLast) {
       path: google.maps.SymbolPath.CIRCLE,
       fillOpacity: 0.5,
       fillColor: "#ff0000",
-      strokeOpacity: 1.0,
+      strokeOpacity: 0.8,
       strokeColor: "#ff0000",
-      strokeWeight: 3.0,
+      strokeWeight: 2.0,
       scale: 5 // pixels
     }
   };

@@ -2,9 +2,19 @@ function createMarker(map, location, isLast) {
   var options = {
     map: map,
     position: { lat: location.lat, lng: location.lng },
-    title: location.name
-    // icon: 'images/circle.png',
+    title: location.name,
+    // icon: "images/circle.png"
+    icon: {
+      path: google.maps.SymbolPath.CIRCLE,
+      fillOpacity: 0.5,
+      fillColor: "#ff0000",
+      strokeOpacity: 1.0,
+      strokeColor: "#ff0000",
+      strokeWeight: 3.0,
+      scale: 5 // pixels
+    }
   };
+
   if (isLast) {
     options.animation = google.maps.Animation.DROP;
   }
@@ -45,7 +55,7 @@ function initMap() {
   //   // zoomOnClick: true,
   //   // imagePath: '../images/m',
   //   // imageExtension: 'png',
-  //   averageCenter: true,
+  //   averageCenter: true
   //   // minimumClusterSize: 2,
   //   // styles: {},
   // };

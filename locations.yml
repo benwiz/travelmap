@@ -653,3 +653,15 @@ locations:
   - name: Cartagena
     lat: 10.420719
     lng: -75.545398
+  - name: Santa Marta
+    lat: 11.243569
+    lng: -74.211394
+  - name: Minca
+    lat: 11.141788
+    lng: -74.115481
+  - name: Palomino
+    lat: 11.248897
+    lng: -73.559257
+  - name: Calabazo
+    lat: 11.284739
+    lng: -73.990637

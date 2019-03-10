@@ -665,3 +665,12 @@ locations:
   - name: Calabazo
     lat: 11.284739
     lng: -73.990637
+  - name: Barranquilla
+    lat: 11.016570
+    lng: -74.821064
+  - name: Medellin
+    lat: 6.249780
+    lng: -75.587447
+  - name: Jardin
+    lat: 5.592830
+    lng: -75.815834

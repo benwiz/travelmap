@@ -283,6 +283,10 @@ locations:
   - name: San Jose
     lat: 37.3382
     lng: -121.8863
+  # HONDURAS
+  - name: Utila
+    lat: 16.097053
+    lng: -86.897018
   # ENGLAND
   - name: London
     lat: 51.5074
@@ -398,6 +402,10 @@ locations:
   - name: Pisa
     lat: 43.7228
     lng: 10.4017
+  # THE VATICAN
+  - name: The Vatican
+    lat: 41.902246
+    lng: 12.456016
   # SPAIN
   - name: Barcelona
     lat: 41.3851
@@ -649,7 +657,7 @@ locations:
   - name: Hanoi
     lat: 21.0278
     lng: 105.8342
-  # Colombia
+  # COLOMBIA
   - name: Cartagena
     lat: 10.420719
     lng: -75.545398
@@ -674,3 +682,9 @@ locations:
   - name: Jardin
     lat: 5.592830
     lng: -75.815834
+  - name: Salento
+    lat: 4.637274
+    lng: -75.569813
+  - name: Bogota
+    lat: 4.597140
+    lng: -74.069691

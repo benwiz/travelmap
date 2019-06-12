@@ -102,6 +102,9 @@ locations:
   - name: New Orleans
     lat: 29.938749
     lng: -90.118958
+  - name: Tickfaw State Park
+    lat: 30.383412
+    lng: -90.650631
   - name: Maui
     lat: 20.7984
     lng: -156.3319
@@ -294,6 +297,9 @@ locations:
   - name: Brighton
     lat: 50.8225
     lng: -0.1372
+  - name: Oxford
+    lat: 51.751727
+    lng: -1.253653
   # SCOTLAND
   - name: Edinburgh
     lat: 55.9533

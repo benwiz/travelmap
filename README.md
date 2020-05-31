@@ -1,6 +1,12 @@
 # travelmap
 
+## What
+
 Map of my travels
+
+## How
+
+Google Maps API, yaml configuration file
 
 ## How to run locally
 

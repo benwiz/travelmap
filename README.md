@@ -2,17 +2,13 @@
 
 ## What
 
-Map of my travels
+TODO
+
+## Why
+
+TODO
 
 ## How
-
-TODO
-
-## How to run locally
-
-TODO
-
-## How to deploy
 
 TODO
 

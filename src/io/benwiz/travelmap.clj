@@ -36,11 +36,12 @@
    :projections
    [{:name "projection",
      :type "mercator",
-     :scale {:signal "scale"},
-     :rotate [{:signal "rotateX"} 0 0],
-     :center [0 {:signal "centerY"}],
-     :translate [{:signal "tx"} {:signal "ty"}]}],
-   :signals
+     ;; :scale {:signal "scale"},
+     ;; :rotate [{:signal "rotateX"} 0 0],
+     ;; :center [0 {:signal "centerY"}],
+     ;; :translate [{:signal "tx"} {:signal "ty"}]
+     }],
+   #_#_:signals
    [{:name "tx", :update "width / 2"}
     {:name "ty", :update "height / 2"}
     {:name "scale",
@@ -79,9 +80,10 @@
    :height 500,
    :data
    [{:name "world",
-     :url "data/world-110m.json",
+     :url "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json" ;; "data/world-110m.json",
      :format {:type "topojson", :feature "countries"}}
-    {:name "graticule", :transform [{:type "graticule", :step [15 15]}]}]})
+    {:name "graticule", :transform [{:type "graticule", :step [15 15]}]}]
+   })
 
 (comment
 
@@ -89,6 +91,6 @@
   (oz/view! line-plot)
   (oz/export! line-plot "index.html")
 
-  (oz/view! world)
+  (oz/view! world :mode :vega)
 
   )

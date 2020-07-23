@@ -1,0 +1,11 @@
+[build]
+
+[[redirects]]
+from = "/travelmap"
+to = "/"
+status = "200"
+
+[[redirects]]
+from = "/spyfalll"
+to = "https://benwiz-spyfall.netlify.app"
+status = 200

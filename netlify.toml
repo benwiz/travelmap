@@ -3,7 +3,6 @@
 [[redirects]]
 from = "/travelmap"
 to = "/"
-status = "200"
 
 [[redirects]]
 from = "/spyfalll"

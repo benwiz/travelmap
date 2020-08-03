@@ -261,6 +261,9 @@ locations:
   - name: Petrified Forest National Park
     lat: 34.9100
     lng: -109.8068
+  - name: Boise
+    lat: 43.6178216
+    lng: -116.2017072
   # MEXICO
   - name: Cabo San Lucas
     lat: 22.8905

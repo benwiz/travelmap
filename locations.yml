@@ -93,6 +93,18 @@ locations:
   - name: Lake Tahoe
     lat: 39.0968
     lng: -120.0324
+  - name: Sugar Bowl
+    lat: 39.2982344
+    lng: -120.3509872
+  - name: Kirkwood
+    lat: 38.6908656
+    lng: -120.0702721
+  - name: Heavenly
+    lat: 38.9568563
+    lng: -119.9448475
+  - name: Northstar
+    lat: 39.2745678
+    lng: -120.1232821
   - name: Big Sur
     lat: 36.3615
     lng: -121.8563
@@ -264,6 +276,9 @@ locations:
   - name: Boise
     lat: 43.6178216
     lng: -116.2017072
+  - name: Bogus Basin
+    lat: 43.764056
+    lng: -116.1113716
   # MEXICO
   - name: Cabo San Lucas
     lat: 22.8905

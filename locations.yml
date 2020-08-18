@@ -391,7 +391,6 @@ locations:
     lat: 44.4268
     lng: 26.1025
   # FRANCE
-  # I'm missing one or two places in central France.
   - name: Paris
     lat: 48.8566
     lng: 2.3522
@@ -416,6 +415,9 @@ locations:
   - name: Mont Saint-Michel
     lat: 48.6361
     lng: -1.5115
+  - name: Loire Valley # This is a general placeholder for a couple specific places
+    lat: 47.5680563
+    lng: 0.1345284
   # ITALY
   - name: Rome
     lat: 41.9028

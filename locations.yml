@@ -284,13 +284,13 @@ locations:
     lng: -73.2914628
   - name: Stowe
     lat: 44.4650589
-    lng: 72.6872007
+    lng: -72.6872007
   - name: White Mountains National Forest
     lat: 44.1471841
-    lng: 71.4613182
+    lng: -71.4613182
   - name: Acadia National Park
     lat: 44.3193593
-    lng: 68.3668492
+    lng: -68.3668492
   # MEXICO
   - name: Cabo San Lucas
     lat: 22.8905

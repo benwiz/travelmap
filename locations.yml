@@ -279,6 +279,15 @@ locations:
   - name: Bogus Basin
     lat: 43.764056
     lng: -116.1113716
+  - name: Burlington
+    lat: 44.5071802
+    lng: -73.2914628
+  - name: White Mountains National Forest
+    lat: 44.1471841
+    lng: 71.4613182
+  - name: Acadia National Park
+    lat: 44.3193593
+    lng: 68.3668492
   # MEXICO
   - name: Cabo San Lucas
     lat: 22.8905

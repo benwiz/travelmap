@@ -279,7 +279,7 @@ locations:
   - name: Bogus Basin
     lat: 43.764056
     lng: -116.1113716
-  - name: Burlington
+  - name: Burlington # TODO location is just a tiny bit off
     lat: 44.5071802
     lng: -73.2914628
   - name: Stowe
@@ -288,7 +288,7 @@ locations:
   - name: White Mountains National Forest
     lat: 44.1471841
     lng: -71.4613182
-  - name: Acadia National Park
+  - name: Acadia National Park # TODO location is just a tiny bit off
     lat: 44.3193593
     lng: -68.3668492
   # MEXICO

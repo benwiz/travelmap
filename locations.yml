@@ -282,6 +282,9 @@ locations:
   - name: Burlington
     lat: 44.5071802
     lng: -73.2914628
+  - name: Stowe
+    lat: 44.4650589
+    lng: 72.6872007
   - name: White Mountains National Forest
     lat: 44.1471841
     lng: 71.4613182

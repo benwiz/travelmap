@@ -1,38 +1,34 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Travelmap | Ben Wiz</title>
+    <meta name="description" content="A travel map of all the places I have visited.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="canonical" href="https://benwiz.com/travelmap">
+    <link href="assets/hat.png" rel="shortcut icon" type="image/x-icon">
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131129805-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- https://github.com/jeremyfa/yaml.js -->
+    <script src="vendor/yaml.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
 
-    gtag('config', 'UA-131129805-1');
-  </script>
+  <div id="container"></div>
 
-  <meta name="description" content="A travel map of all the places I have visited.">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Ben Wiz's Travel Map</title>
-  <link rel="canonical" href="https://benwiz.io/travelmap">
-  <link href="images/hat.png" rel="shortcut icon" type="image/x-icon">
+  <div id="currentInfo">
+    <span id="year1990" class="year">1990</span>
+    <span id="year1995" class="year">1995</span>
+    <span id="year2000" class="year">2000</span>
+  </div>
 
-  <!-- https://github.com/jeremyfa/yaml.js -->
-  <script src="vendor/yaml.js"></script>
+  <div id="title">
+    Travelmap | Ben Wiz
+  </div>
 
-  <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-  <!-- <a class="button" href="https://benwiz.io/">Home</a> -->
-  <div id="map"></div>
-
-  <script src="mapstyle.js"></script>
-  <script src="index.js"></script>
-  <!-- <script src="vendor/markerclusterer.js"></script> -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgsvdb_JX_9Wqr5yimZlO4qvRnIOQ_gcs&callback=initMap"
-    async defer></script>
-</body>
-
+  <script type="text/javascript" src="vendor/Detector.js"></script>
+  <script type="text/javascript" src="vendor/three.min.js"></script>
+  <script type="text/javascript" src="vendor/Tween.js"></script>
+  <script type="text/javascript" src="vendor/globe.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>

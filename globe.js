@@ -9,6 +9,8 @@
  * You may obtain a copy of the License at
  *
  * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Modified by Ben Wiz
  */
 
 var DAT = DAT || {};
@@ -151,6 +153,7 @@ DAT.Globe = function(container, opts) {
     container.addEventListener('mousedown', onMouseDown, false);
 
     container.addEventListener('mousewheel', onMouseWheel, false);
+    container.addEventListener('wheel', onWheel, false);
 
     document.addEventListener('keydown', onDocumentKeyDown, false);
 
@@ -320,7 +323,17 @@ DAT.Globe = function(container, opts) {
     return false;
   }
 
+  function onWheel(event) {
+    event.preventDefault();
+    console.log(event.deltaY);
+    if (overRenderer) {
+      zoom(event.deltaY * -4.0);
+    }
+    return false;
+  }
+
   function onDocumentKeyDown(event) {
+    console.log(event.keyCode);
     switch (event.keyCode) {
       case 38:
         zoom(100);

@@ -32,9 +32,11 @@ if (!Detector.webgl)
   var parsedYaml = YAML.load("locations.yml");
   var locations = parsedYaml.locations;
   var datoms = locations.map(function (loc) {
-    return [loc.lat, loc.lng, 0.1];
+    return [loc.lat, loc.lng, 0.5, 0.4];
   });
-  globe.addData(datoms.flat(), {format: "magnitude",
+
+  // TODO supply my own `colorFn` return a `new THREE.Color()`
+  globe.addData(datoms.flat(), {format: "legend", // `magnitude` expects one value following coords to be used for magnitude and color, `legend` expects two values. first for magnitude, second for color.
                                 name: "travel",
                                 animated: true});
   globe.createPoints();

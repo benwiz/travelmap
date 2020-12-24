@@ -1,5 +1,4 @@
 # travelmap
-
 ## What
 
 Map of my travels
@@ -31,8 +30,12 @@ Just push to master
 
 ## To Do
 
-- Link to Google Maps legacy version
-- Link to Google Maps if no WebGL
+- Start over New Orleans
+- Passive drift, maybe across a specific set of coordinates
+- use dotted continents like github's homepage
+- add travel lines, can even be between random cities
+- read https://github.blog/2020-12-21-how-we-built-the-github-globe/
+- consider mutating the magnitude and color
 
 - Later
   - Google Timeline or Overland locations

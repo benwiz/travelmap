@@ -11,7 +11,6 @@ var mobileOverride = getQueryStringValue("mobile-override");
 var isMobile = mobileAndTabletCheck();
 var mobile = document.getElementById("mobile");
 var noWebGL = document.getElementById("no-webgl");
-console.log(isMobile);
 var threeD = document.getElementById("3d");
 if (!Detector.webgl)
 {

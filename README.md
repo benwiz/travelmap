@@ -31,8 +31,8 @@ Just push to master
 
 ## To Do
 
-- Style map (there is an [online wizard](https://mapstyle.withgoogle.com/) to do this)
-  - Better markers
+- Link to Google Maps legacy version
+- Link to Google Maps if no WebGL
 
 - Later
   - Google Timeline or Overland locations

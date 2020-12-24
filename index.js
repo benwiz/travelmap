@@ -1,7 +1,13 @@
-if(!Detector.webgl){
-  // TODO display google map version, or maybe just redirect
-  // actually, probably display a link stating lack of webgl
-  Detector.addGetWebGLMessage();
+var noWebGL = document.getElementById("no-webgl");
+var threeD = document.getElementById("3d");
+if (!Detector.webgl)
+{
+  // Detector.addGetWebGLMessage();
+  noWebGL.removeAttribute("hidden");
+  threeD.setAttribute("hidden", true);
+  document.body.style.backgroundImage = "none";
+  document.body.style.backgroundColor = "#fff";
+  document.body.style.color = "#000";
 } else {
   var container = document.getElementById('container');
   var globe = new DAT.Globe(container, {imgDir: "assets/"});

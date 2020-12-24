@@ -13,22 +13,27 @@
   </head>
   <body>
 
-  <div id="container"></div>
+    <div id="no-webgl" hidden>
+      <span>Your browser cannot run WebGL. Please visit the <a href="2d">2D version</a>.</span>
+    </div>
+    <div id="3d">
+      <div id="container"></div>
 
-  <div id="currentInfo">
-    <span id="year1990" class="year">1990</span>
-    <span id="year1995" class="year">1995</span>
-    <span id="year2000" class="year">2000</span>
-  </div>
+      <div id="currentInfo">
+        <span id="year1990" class="year">1990</span>
+        <span id="year1995" class="year">1995</span>
+        <span id="year2000" class="year">2000</span>
+      </div>
 
-  <div id="title">
-    Travelmap | Ben Wiz
-  </div>
+      <div id="title">
+        Travelmap | Ben Wiz
+      </div>
 
-  <script type="text/javascript" src="vendor/Detector.js"></script>
-  <script type="text/javascript" src="vendor/three.min.js"></script>
-  <script type="text/javascript" src="vendor/Tween.js"></script>
-  <script type="text/javascript" src="vendor/globe.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+      <script type="text/javascript" src="vendor/Detector.js"></script>
+      <script type="text/javascript" src="vendor/three.min.js"></script>
+      <script type="text/javascript" src="vendor/Tween.js"></script>
+      <script type="text/javascript" src="vendor/globe.js"></script>
+      <script type="text/javascript" src="index.js"></script>
+    </div>
   </body>
 </html>

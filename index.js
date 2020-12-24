@@ -24,6 +24,15 @@ function setPoints (locations, format) {
   });
 
   // NOTE can supply my own `colorFn` return a `new THREE.Color()`
+
+  // var continentPoints = continents.map(function (loc) {
+  //   var datom = [loc[0], loc[1], 0.001, 0.5];
+  //   return datom;
+  // })
+  // // .slice(0, 1000);
+  // FIXE this is causing some sort of error for some reason
+  // globe.addData(continentPoints.flat(), {format: "legend",
+  //                                        name: "continents"});
   globe.addData(datoms.flat(), {format: format,
                                 name: "travel",
                                 animated: true});

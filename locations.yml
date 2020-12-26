@@ -360,10 +360,42 @@ locations:
     lat: 57.7089
     lng: 11.9746
   # DENMARK
-  # I'm missing a lot of Denmark.
   - name: Copenhagen
     lat: 55.6761
     lng: 12.5683
+  - name: Bjerringbro
+    lat: 56.3775371
+    lng: 9.6392774
+  - name: Fyrkatvej
+    lat: 56.6232274
+    lng: 9.7682779
+  - name: Hjerl Hede
+    lat: 56.4841356
+    lng: 8.8697678
+  - name: Moesgaard Museum
+    lat: 56.0887188
+    lng: 10.221313
+  - name: Aarhus
+    lat: 56.1781797
+    lng: 10.1119353
+  - nane: Jelling
+    lat: 55.7817973
+    lng: 9.3481958
+  - name: LegoLand
+    lat: 55.7309668
+    lng: 9.0105699
+  - name: Holbæk
+    lat: 55.7160572
+    lng: 11.5768499
+  - name: Frederikssun
+    lat: 55.8366357
+    lng: 12.0201495
+  - name: Skibby
+    lat: 55.762771
+    lng: 11.8681557
+  - nane: Roskilde
+    lat: 55.6702573
+    lng: 11.9412246
   # NETHERLANDS
   - name: Amsterdam
     lat: 52.3680

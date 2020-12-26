@@ -69,5 +69,6 @@ if (!Detector.webgl)
     .easing(TWEEN.Easing.Cubic.EaseOut)
     .start();
   globe.animate();
+  // TODO loading.gif not showing
   document.body.style.backgroundImage = "none"; // remove loading
 }

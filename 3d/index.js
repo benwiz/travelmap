@@ -71,4 +71,5 @@ if (!Detector.webgl)
   globe.animate();
   // TODO loading.gif not showing
   document.body.style.backgroundImage = "none"; // remove loading
+  document.getElementById("loading").setAttribute("hidden", true);
 }

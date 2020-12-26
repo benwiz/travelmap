@@ -23,23 +23,18 @@ function setPoints (locations, format) {
     return datom;
   });
 
-  // NOTE can supply my own `colorFn` return a `new THREE.Color()`
-
-  // var continentPoints = continents.map(function (loc) {
-  //   var datom = [loc[0], loc[1], 0.001, 0.5];
-  //   return datom;
-  // })
-  // // .slice(0, 1000);
-  // FIXE this is causing some sort of error for some reason
-  // globe.addData(continentPoints.flat(), {format: "legend",
-  //                                        name: "continents"});
-  globe.addData(datoms.flat(), {format: format,
-                                name: "travel",
-                                animated: true});
+  var continentPoints = continents.map(function (loc) {
+    var datom = [loc[0], loc[1], 0.001, 0.5];
+    return datom;
+  });
+  globe.addData(datoms.flat().concat(continentPoints.flat()),
+                {format: format,
+                 name: "travel",
+                 animated: true});
   globe.createPoints();
 }
 
-noise.seed(Math.random()); // TODO consider not random for consistency on page loads
+noise.seed(Math.random());
 var mobileOverride = getQueryStringValue("mobile-override");
 var isMobile = mobileAndTabletCheck();
 var mobile = document.getElementById("mobile");

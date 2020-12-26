@@ -56,8 +56,8 @@ if (!Detector.webgl)
   document.body.style.color = "#000";
 } else {
   var container = document.getElementById('container');
-  var globe = new DAT.Globe(container, {imgDir: "assets/"});
-  var parsedYaml = YAML.load("locations.yml");
+  var globe = new DAT.Globe(container, {imgDir: "../assets/"});
+  var parsedYaml = YAML.load("../locations.yml");
   var locations = parsedYaml.locations;
   var format = "legend"; // magnitude | legend
 

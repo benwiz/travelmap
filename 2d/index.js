@@ -50,7 +50,7 @@ function createMarkers(map, locations) {
 }
 
 function initMap() {
-  var parsedYaml = YAML.load("locations.yml");
+  var parsedYaml = YAML.load("../locations.yml");
   var locations = parsedYaml.locations;
 
   // Create map

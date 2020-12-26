@@ -14,8 +14,8 @@ function scale (num, in_min, in_max, out_min, out_max) {
 
 function setPoints (locations, format) {
   var datoms = locations.map(function (loc) {
-    var magnitude = scale(noise.simplex2(loc.lat, loc.lng), 0, 1, 0.1, 0.4);
-    var color = noise.simplex2(loc.lat, loc.lng);
+    var magnitude = 0.015; //scale(noise.simplex2(loc.lat, loc.lng), 0, 1, 0.1, 0.4);
+    var color = 1.2; // noise.simplex2(loc.lat, loc.lng);
     var datom = [loc.lat, loc.lng, magnitude];
     if (format === "legend") {
       datom.push(color);
@@ -27,7 +27,7 @@ function setPoints (locations, format) {
     var datom = [loc[0], loc[1], 0.001, 0.5];
     return datom;
   });
-  globe.addData(datoms.flat().concat(continentPoints.flat()),
+  globe.addData(datoms.flat().concat(continentPoints.flat()), // continentPoints is slow
                 {format: format,
                  name: "travel",
                  animated: true});

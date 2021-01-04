@@ -11,7 +11,7 @@ function CenterControl(controlDiv, map) {
   controlUI.style.fontSize = "22px";
   controlUI.title = "Click to view 3D version";
   controlUI.text = "3D";
-  controlUI.setAttribute("href", "../3d");
+  controlUI.setAttribute("href", "../3d/");
   controlDiv.appendChild(controlUI);
 }
 

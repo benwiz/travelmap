@@ -30,7 +30,9 @@ Just push to master
 
 ## To Do
 
-- Landing page for selecting 2D or 3D
+- http://www.temis.nl/data/topo/dem2grid.html
+  - 
+
 - Start over New Orleans
 - Passive drift, maybe across a specific set of coordinates
 - use dotted continents like github's homepage

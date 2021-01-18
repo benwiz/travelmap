@@ -27,7 +27,13 @@ function setPoints (locations, format) {
     var datom = [loc[0], loc[1], 0.001, 0.5];
     return datom;
   });
-  globe.addData(datoms.flat().concat(continentPoints.flat()), // continentPoints is slow
+  // TODO ocean needs to be optional
+  // var oceanPoints = ocean.map(function (loc) {
+  //   var datom = [loc[0], loc[1], 0.001, 0.1];
+  //   return datom;
+  // });
+  var oceanPoints = [];
+  globe.addData(datoms.flat().concat(continentPoints.flat()).concat(oceanPoints.flat()),
                 {format: format,
                  name: "travel",
                  animated: true});

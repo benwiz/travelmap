@@ -30,10 +30,38 @@ Just push to master
 
 ## To Do
 
-- http://www.temis.nl/data/topo/dem2grid.html
-  - 
+- http://www.temis.nl/data/topo/dem2grid.html (https://web.archive.org/web/20200620165537/http://www.temis.nl/data/topo/dem2grid.html)
+    
+The data files provide the terrain height in the form of a 2-dimensional array without longitude-latitude coordinates -- these coordinates must be constructed by the user on the basis of the grid specifications. The first line of the unformatted and ascii data files provides the following information:
 
-- Start over New Orleans
+    nlon  nlat  nfac  nocean  nland
+
+where:
+
+    nlon   = actual number of longitudes <= mlon
+    nlat   = actual number of latitudes <= mlat
+    nfac   = resolution specifier: resolution is nfac/120 degrees
+             in latitude and longitude range
+             [the number is used in the file names]
+    nocean = value in the array indicating an ocean data point
+             [this usually is -9999]
+    nland  = part of the nfac*nfac averaged data points that
+             have to be land for the average data point in the
+             height array to be defined as land
+
+These and some additional things are also mentioned in the attributes of th HDF file.
+
+The terrain height is given in the form of nlon by nlat grid cells of the specified size with centre coordinates rlon, rlat that can be computed as follows:
+
+   rlon(i) = -180 + D(i)    i=1,2,...,nlon
+   rlat(i) =  +90 - D(i)    i=1,2,...,nlat
+      D(i) = ( 2*i - 1 ) * nfac / 240
+
+  - http://www.temis.nl/data/gmted2010/index.php
+
+maybe I want to keep another elevation file with all global coords and the elevation, can plot ocean vs non ocean
+
+- html over New Orleans
 - Passive drift, maybe across a specific set of coordinates
 - use dotted continents like github's homepage
 - add travel lines, can even be between random cities

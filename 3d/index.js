@@ -62,7 +62,7 @@ if (!Detector.webgl)
   document.body.style.color = "#000";
 } else {
   var container = document.getElementById('container');
-  var globe = new DAT.Globe(container, {imgPath: "../assets/radial-gradient.jpg"});
+  var globe = new DAT.Globe(container, {imgPath: "../assets/radial-gradient-dark.jpg"});
   var parsedYaml = YAML.load("../locations.yml");
   var locations = parsedYaml.locations;
   var format = "legend"; // magnitude | legend

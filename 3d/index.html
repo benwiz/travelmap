@@ -9,9 +9,7 @@
 
     <!-- https://github.com/jeremyfa/yaml.js -->
     <script src="vendor/yaml.js"></script>
-    <script type="text/javascript" src="vendor/Detector.js"></script>
-    <script type="text/javascript" src="vendor/three.min.js"></script>
-    <script type="text/javascript" src="vendor/Tween.js"></script>
+    <script src="//unpkg.com/globe.gl"></script>
     <script type="text/javascript" src="vendor/perlin.js"></script>
     <!-- <script type="text/javascript" src="population.js"></script> -->
     <script type="text/javascript" src="elevation.js"></script>
@@ -19,28 +17,7 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-
-    <div id="loading">Loading...</div>
-    <div id="mobile" hidden>
-      <span>It looks like you're on a mobile device. The 3D map does not yet work well on small and touchscreen devices. Two 2D version works better.</span>
-      <div><a href="../2d">2D version</a></div>
-      <div><a href="?mobile-override=true">3D version</a></div>
-    </div>
-    <div id="no-webgl" hidden>
-      <span>Your browser cannot run WebGL. Please visit the <a href="2d">2D version</a>.</span>
-    </div>
-    <div id="3d">
-      <div id="container"></div>
-
-      <div id="menu">
-        <a class="menu-item" href="../2d/">2D (legacy)</a>
-      </div>
-
-      <div id="title">
-        3D Travel Map (beta)
-      </div>
-      <script type="text/javascript" src="globe.js"></script>
-      <script type="text/javascript" src="index.js"></script>
-    </div>
+    <div id="globe"></div>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>

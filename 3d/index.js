@@ -12,70 +12,40 @@ function scale (num, in_min, in_max, out_min, out_max) {
   return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 
-function setPoints (locations, format) {
-  var datoms = locations.map(function (loc) {
-    var magnitude = 0.015; //scale(noise.simplex2(loc.lat, loc.lng), 0, 1, 0.1, 0.4);
-    var color = 1.2; // noise.simplex2(loc.lat, loc.lng);
-    var datom = [loc.lat, loc.lng, magnitude];
-    if (format === "legend") {
-      datom.push(color);
-    }
-    return datom;
+const world = Globe()
+      .globeImageUrl("../assets/radial-gradient-dark.jpg") // .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
+      .hexPolygonResolution(3)
+      .hexPolygonMargin(0.2)
+      .hexPolygonColor(() => "green")  // `#${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}`
+      // .hexPolygonLabel(({ properties: d }) => `<b>${d.ADMIN} (${d.ISO_A2})</b>`)  // Population: <i>${d.POP_EST}</i>
+      .pointAltitude("size")
+      .pointColor("color")
+      .pointLabel(function (p) {
+        return `<b>${p.name}</b>`;
+      })
+      ;
+world(document.getElementById('globe'));
+world.controls().autoRotate = true;
+world.controls().autoRotateSpeed = 1.0;
+// TODO replcae globe click with a dedicated button, look at old code with the good looking menu
+world.onGlobeClick(function (coords, event) {
+  world.controls().autoRotate = !world.controls().autoRotate;
+});
+
+fetch('../assets/ne_110m_admin_0_countries.geojson')
+  .then(res => res.json())
+  .then(countries => {
+    world.hexPolygonsData(countries.features);
   });
 
-  var continentPoints = continents.map(function (loc) {
-    var datom = [loc[0], loc[1], 0.001, 0.5];
-    return datom;
-  });
-  // TODO ocean needs to be optional
-  // var oceanPoints = ocean.map(function (loc) {
-  //   var datom = [loc[0], loc[1], 0.001, 0.1];
-  //   return datom;
-  // });
-  var oceanPoints = [];
-  globe.addData(datoms.flat().concat(continentPoints.flat()).concat(oceanPoints.flat()),
-                {format: format,
-                 name: "travel",
-                 animated: true});
-  globe.createPoints();
-}
-
-noise.seed(Math.random());
-var mobileOverride = getQueryStringValue("mobile-override");
-var isMobile = mobileAndTabletCheck();
-var mobile = document.getElementById("mobile");
-var noWebGL = document.getElementById("no-webgl");
-var threeD = document.getElementById("3d");
-if (!Detector.webgl)
-{
-  // Detector.addGetWebGLMessage();
-  noWebGL.removeAttribute("hidden");
-  threeD.setAttribute("hidden", true);
-  document.body.style.backgroundImage = "none";
-  document.body.style.backgroundColor = "#fff";
-  document.body.style.color = "#000";
-} else if (isMobile && (mobileOverride !== "true")) {
-  mobile.removeAttribute("hidden");
-  threeD.setAttribute("hidden", true);
-  document.body.style.backgroundImage = "none";
-  document.body.style.backgroundColor = "#fff";
-  document.body.style.color = "#000";
-} else {
-  var container = document.getElementById('container');
-  var globe = new DAT.Globe(container, {imgPath: "../assets/radial-gradient-dark.jpg"});
-  var parsedYaml = YAML.load("../locations.yml");
-  var locations = parsedYaml.locations;
-  var format = "legend"; // magnitude | legend
-
-  setPoints(locations, format);
-
-  TWEEN.start();
-  new TWEEN.Tween(globe)
-    .to({time: 0}, 500)
-    .easing(TWEEN.Easing.Cubic.EaseOut)
-    .start();
-  globe.animate();
-  // TODO loading.gif not showing
-  document.body.style.backgroundImage = "none"; // remove loading
-  document.getElementById("loading").setAttribute("hidden", true);
-}
+var parsedYaml = YAML.load("../locations.yml"); // TODO don't block, use callback somehow, but realistically doesn't matter since this is at the end. Could probably use fetch then a diff fn not load
+var locations = parsedYaml.locations;
+var travelData = locations.map(function (loc) {
+  // NOTE there is also "name" inside loc
+  return {lat: loc.lat,
+          lng: loc.lng,
+          name: loc.name,
+          size: 0.01,
+          color: "red",};
+});
+world.pointsData(travelData);

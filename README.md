@@ -61,11 +61,11 @@ The terrain height is given in the form of nlon by nlat grid cells of the specif
 
 ## To Do
 
-- Possibly port to https://github.com/vasturiano/three-globe it has a way cleaner api
-- could be cool to show day/night, could probably do this with Three.js
 - start over New Orleans
-- Passive drift, maybe across a specific set of coordinates
-- add travel lines, can even be between random cities
+- button to stop rotation
+
+- could be cool to show day/night, could probably do this with Three.js
+- add travel lines, can even be between random cities or over mouse hovers
 - read https://github.blog/2020-12-21-how-we-built-the-github-globe/
 - consider mutating the magnitude and color
 
@@ -73,7 +73,6 @@ The terrain height is given in the form of nlon by nlat grid cells of the specif
   - Google Timeline or Overland locations
 
 - Locations
-  - Ask Grandma about locations we visited in Denmark
   - Ask Mom about locations we visited in France - I think I'm missing one or two places in central France
   - Ask Mom about locations we visited in Costa Rica
   - Check one of my old passports for the various Carribbean islands

@@ -23,7 +23,7 @@ DAT.Globe = function(container, opts) {
     c.setHSL( ( 0.6 - ( x * 0.5 ) ), 1.0, 0.5 );
     return c;
   };
-  var imgDir = opts.imgDir || '/globe/';
+  var imgPath = opts.imgPath || '';
 
   var Shaders = {
     'earth' : {
@@ -106,7 +106,7 @@ DAT.Globe = function(container, opts) {
     shader = Shaders['earth'];
     uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-    uniforms['texture'].value = THREE.ImageUtils.loadTexture(imgDir+'world.jpg');
+    uniforms['texture'].value = THREE.ImageUtils.loadTexture(imgPath);
 
     material = new THREE.ShaderMaterial({
 
@@ -325,7 +325,6 @@ DAT.Globe = function(container, opts) {
 
   function onWheel(event) {
     event.preventDefault();
-    console.log(event.deltaY);
     if (overRenderer) {
       zoom(event.deltaY * -4.0);
     }
@@ -333,7 +332,6 @@ DAT.Globe = function(container, opts) {
   }
 
   function onDocumentKeyDown(event) {
-    console.log(event.keyCode);
     switch (event.keyCode) {
       case 38:
         zoom(100);

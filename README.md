@@ -59,9 +59,11 @@ The terrain height is given in the form of nlon by nlat grid cells of the specif
 
   - http://www.temis.nl/data/gmted2010/index.php
 
-maybe I want to keep another elevation file with all global coords and the elevation, can plot ocean vs non ocean
 
-- html over New Orleans
+- use a pretty gradient as background image
+- could be cool to show day/night
+
+- start over New Orleans
 - Passive drift, maybe across a specific set of coordinates
 - use dotted continents like github's homepage
 - add travel lines, can even be between random cities

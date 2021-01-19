@@ -28,10 +28,10 @@ Just push to master
 - Consider importing Overland data, make it so only visible at certain zoom level or just make the dots small enough. Overland data is GeoJSON which should be easy to import. Maybe just want a Python/Node.js script that imports the data then commits to github, eventually maybe lambda and s3, but not to start.
 - https://mapstyle.withgoogle.com/
 
-## To Do
+## Data
 
 - http://www.temis.nl/data/topo/dem2grid.html (https://web.archive.org/web/20200620165537/http://www.temis.nl/data/topo/dem2grid.html)
-    
+
 The data files provide the terrain height in the form of a 2-dimensional array without longitude-latitude coordinates -- these coordinates must be constructed by the user on the basis of the grid specifications. The first line of the unformatted and ascii data files provides the following information:
 
     nlon  nlat  nfac  nocean  nland
@@ -59,13 +59,12 @@ The terrain height is given in the form of nlon by nlat grid cells of the specif
 
   - http://www.temis.nl/data/gmted2010/index.php
 
+## To Do
 
-- use a pretty gradient as background image
-- could be cool to show day/night
-
+- Possibly port to https://github.com/vasturiano/three-globe it has a way cleaner api
+- could be cool to show day/night, could probably do this with Three.js
 - start over New Orleans
 - Passive drift, maybe across a specific set of coordinates
-- use dotted continents like github's homepage
 - add travel lines, can even be between random cities
 - read https://github.blog/2020-12-21-how-we-built-the-github-globe/
 - consider mutating the magnitude and color

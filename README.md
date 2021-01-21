@@ -62,8 +62,7 @@ The terrain height is given in the form of nlon by nlat grid cells of the specif
 ## To Do
 
 - start over New Orleans
-- button to stop rotation
-
+- share vendor resources between 2d and 3d
 - could be cool to show day/night, could probably do this with Three.js
 - add travel lines, can even be between random cities or over mouse hovers
 - read https://github.blog/2020-12-21-how-we-built-the-github-globe/

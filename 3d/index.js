@@ -40,14 +40,15 @@ fetch('../assets/ne_110m_admin_0_countries.geojson')
     world.hexPolygonsData(countries.features);
   });
 
-var parsedYaml = YAML.load("../locations.yml"); // TODO don't block, use callback somehow, but realistically doesn't matter since this is at the end. Could probably use fetch then a diff fn not load
-var locations = parsedYaml.locations;
-var travelData = locations.map(function (loc) {
-  // NOTE there is also "name" inside loc
-  return {lat: loc.lat,
-          lng: loc.lng,
-          name: loc.name,
-          size: 0.01,
-          color: "red",};
+var parsedYaml = YAML.load("../locations.yml", function (parsedYaml) {
+  var locations = parsedYaml.locations;
+  var travelData = locations.map(function (loc) {
+    // NOTE there is also "name" inside loc
+    return {lat: loc.lat,
+            lng: loc.lng,
+            name: loc.name,
+            size: 0.01,
+            color: "red",};
+  });
+  world.pointsData(travelData);
 });
-world.pointsData(travelData);

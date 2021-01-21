@@ -27,10 +27,11 @@ const world = Globe()
 world(document.getElementById('globe'));
 world.controls().autoRotate = true;
 world.controls().autoRotateSpeed = 1.0;
-// TODO replcae globe click with a dedicated button, look at old code with the good looking menu
-world.onGlobeClick(function (coords, event) {
+
+document.getElementById("autorotate").onclick = function (e) {
   world.controls().autoRotate = !world.controls().autoRotate;
-});
+  e.target.textContent = world.controls().autoRotate ? "Stop Spin" : "Start Spin";
+};
 
 fetch('../assets/ne_110m_admin_0_countries.geojson')
   .then(res => res.json())

@@ -14,6 +14,7 @@ function scale (num, in_min, in_max, out_min, out_max) {
 
 const world = Globe()
       .globeImageUrl("../assets/radial-gradient-dark.jpg") // .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
+      .pointOfView({lat: 29.9511, lng: -90.0715, altitude: 2.5}, 1000)
       .hexPolygonResolution(3)
       .hexPolygonMargin(0.2)
       .hexPolygonColor(() => "green")  // `#${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}`

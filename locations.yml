@@ -159,6 +159,9 @@ locations:
   - name: Key West
     lat: 24.5551
     lng: -81.7800
+  - name: Miami
+    lat: 25.8145363
+    lng: -80.1954426
   - name: Asheville
     lat: 35.5951
     lng: -82.5515

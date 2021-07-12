@@ -67,6 +67,7 @@ The terrain height is given in the form of nlon by nlat grid cells of the specif
 - add travel lines, can even be between random cities or over mouse hovers
 - read https://github.blog/2020-12-21-how-we-built-the-github-globe/
 - consider mutating the magnitude and color
+- use the four color theorem to color 3d map hex tiles by country
 
 - Later
   - Google Timeline or Overland locations

@@ -498,60 +498,61 @@ locations:
   - name: Madrid
     lat: 40.4168
     lng: -3.7038
+  # TODO most of these coordinates are slightly off, google maps is stupid, do not use the coords from the url
   - name: Granada
     lat: 37.1810095
     lng: -3.6262911
   - name: Roses
-    lat: 42.1814698
-    lng: 3.0518688
+    lat: 42.1192988
+    lng: 2.9459809
     dates: [2021-10-02]
   - name: Blanes
-    lat: 41.9332278
-    lng: 2.6825577
+    lat: 41.9445155
+    lng: 2.8862877
     dates: [2021-09-19]
   - name: Cadaques
     lat: 42.2871458
     lng: 3.2837249
     dates: [2021-10-03]
   - name: Castello d'Empuries
-    lat: 42.2493459
-    lng: 3.0936032
+    lat: 42.1584305
+    lng: 2.9425204
     dates: [2021-10-03]
   - name: Figueres
-    lat: 42.2692383
-    lng: 3.0714058
+    lat: 42.1584305
+    lng: 2.9425204
     dates: [2021-10-23]
   - name: Tarragona
-    lat: 41.2252376
-    lng: 1.4501287
+    lat: 41.1294276
+    lng: 1.5421225
     dates: [2021-11-06]
   - name: Santes Creus
-    lat: 41.2430106
-    lng: 1.4376999
+    lat: 41.1294276
+    lng: 1.5421225
     dates: [2021-11-06]
   - name: Siurana
-    lat: 41.2316339
-    lng: 1.1527735
+    lat: 41.1069679
+    lng: 1.0210444
     dates: [2021-11-06]
   - name: Falset
-    lat: 41.1816795
-    lng: 0.8728901
+    lat: 41.0590006
+    lng: 0.6629052
     dates: [2021-11-07]
   - name: Gratallops # yes coords are same as Falset because they are so close
-    lat: 41.1816795
-    lng: 0.8728901
+    lat: 41.0590006
+    lng: 0.6629052
     dates: [2021-11-07]
   - name: Lleida
-    lat: 41.3347455
-    lng: 1.1718558
+    lat: 41.364527
+    lng: 0.5608104
     dates: [2021-11-07]
   - name: Vallbona de les Monges
-    lat: 41.4652829
-    lng: 1.0619689
+    lat: 41.364527
+    lng: 0.5608104
     dates: [2021-11-08]
   - name: Montblanc
-    lat: 41.4747448
-    lng: 1.1820582
+    lat: 40.4805224
+    lng: -1.7833538
     dates: [2021-11-08]
   # GREECE
   - name: Athens

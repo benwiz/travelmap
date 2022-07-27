@@ -1,3 +1,4 @@
+# google maps is stupid, do not use the coords from the url, they represent the center of the viewport
 locations:
   # USA
   - name: San Francisco
@@ -345,6 +346,15 @@ locations:
   - name: Oxford
     lat: 51.751727
     lng: -1.253653
+  - name: Bath
+    lat: 51.3792838
+    lng: -2.3597957
+  - name: Manchester
+    lat: 53.4811402
+    lng: -2.2410562
+  - name: Lake District
+    lat: 54.4431175
+    lng: -2.9966498
   # SCOTLAND
   - name: Edinburgh
     lat: 55.9533
@@ -361,6 +371,22 @@ locations:
   - name: Stirling
     lat: 56.1165
     lng: -3.9369
+  # NORWAY
+  - name: Karmøy
+    lat: 59.3913026
+    lng: 5.2654673
+  - name: Bergen
+    lat: 60.3943055
+    lng: 5.3259192
+  - name: Hardangervidda
+    lat: 60.0405565
+    lng: 7.0686837
+  - name: Haslum
+    lat: 59.9229467
+    lng: 10.5686211
+  - name: Oslo
+    lat: 59.9123104
+    lng: 10.7458116
   # SWEDEN
   - name: Gothenburg
     lat: 57.7089
@@ -440,6 +466,14 @@ locations:
   - name: Bucharest
     lat: 44.4268
     lng: 26.1025
+  # BOSNIA & HERZEGOVINA
+  - name: Sarajevo
+    lat: 43.8519774
+    lng: 18.3866868
+  # CROATIA
+  - name: Dubrovnik
+    lat: 42.6409191
+    lng: 18.1086337
   # FRANCE
   - name: Paris
     lat: 48.8566
@@ -498,17 +532,28 @@ locations:
   - name: Madrid
     lat: 40.4168
     lng: -3.7038
-  # TODO most of these coordinates are slightly off, google maps is stupid, do not use the coords from the url
   - name: Granada
-    lat: 37.1810095
-    lng: -3.6262911
+    lat: 37.1734995
+    lng: -3.5995337
+  - name: Córdoba
+    lat: 37.8804343
+    lng: -4.7784921
+  - name: Sevilla
+    lat: 37.3926323
+    lng: -5.9985444
+  - name: Madrid
+    lat: 40.4147882
+    lng: -3.7067452
+  - name: Rondaa
+    lat: 36.7461498
+    lng: -5.1611482
   - name: Roses
-    lat: 42.1192988
-    lng: 2.9459809
+    lat: 42.262970
+    lng: 3.174800
     dates: [2021-10-02]
   - name: Blanes
-    lat: 41.9445155
-    lng: 2.8862877
+    lat: 41.674270
+    lng: 2.792100
     dates: [2021-09-19]
   - name: Cadaques
     lat: 42.2871458
@@ -519,41 +564,102 @@ locations:
     lng: 2.9425204
     dates: [2021-10-03]
   - name: Figueres
-    lat: 42.1584305
-    lng: 2.9425204
+    lat: 42.267502
+    lng: 2.960840
     dates: [2021-10-23]
+  - name: Sant Feliu de Guíxols
+    lat: 41.7812297
+    lng: 3.0306895
   - name: Tarragona
-    lat: 41.1294276
-    lng: 1.5421225
+    lat: 41.118881
+    lng: 1.244491
     dates: [2021-11-06]
   - name: Santes Creus
-    lat: 41.1294276
-    lng: 1.5421225
+    lat: 41.347120
+    lng: 1.363090
     dates: [2021-11-06]
   - name: Siurana
-    lat: 41.1069679
-    lng: 1.0210444
+    lat: 41.2580509
+    lng: 0.9301405
     dates: [2021-11-06]
   - name: Falset
     lat: 41.0590006
     lng: 0.6629052
     dates: [2021-11-07]
-  - name: Gratallops # yes coords are same as Falset because they are so close
-    lat: 41.0590006
-    lng: 0.6629052
+  - name: Gratallops
+    lat: 41.1448695
+    lng: 0.8164403
     dates: [2021-11-07]
   - name: Lleida
     lat: 41.364527
     lng: 0.5608104
     dates: [2021-11-07]
   - name: Vallbona de les Monges
-    lat: 41.364527
-    lng: 0.5608104
+    lat: 41.525641
+    lng: 1.0876169
     dates: [2021-11-08]
   - name: Montblanc
-    lat: 40.4805224
-    lng: -1.7833538
+    lat: 41.3743551
+    lng: 1.1615659
     dates: [2021-11-08]
+  - name: Donostia-San Sebastian
+    lat: 43.3224219
+    lng: -1.9838889
+  - name: Bilbao
+    lat: 43.2630018
+    lng: -2.9350039
+  - name: Suances
+    lat: 43.4307202
+    lng: -4.0375128
+  - name: Gijón
+    lat: 43.5437683
+    lng: -5.6630768
+  - name: LLuarca
+    lat: 43.5449603
+    lng: -6.5344611
+  - name: Santa Gadea
+    lat: 43.552997
+    lng: -6.9877161
+  - name: Ribadeo
+    lat: 43.5339029
+    lng: -7.0405306
+  - name: Taramundi
+    lat: 43.3567156
+    lng: -7.106235
+  - name: Lugo
+    lat: 43.011038
+    lng: -7.5565033
+  - name: Santiago de Compostela
+    lat: 42.8799362
+    lng: -8.5422342
+  - name: Finisterra
+    lat: 42.8812719
+    lng: -9.2716444
+  - name: Los Abrigos
+    lat: 28.0305129
+    lng: -16.5942557
+  - name: Costa Adeje
+    lat: 28.0922037
+    lng: -16.7339083
+  - name: Montana Guama
+    lat: 28.2699284
+    lng: -16.8269096
+  - name: Puerto de la Cruz
+    lat: 28.410758
+    lng: -16.5647119
+  - name: La Laguna
+    lat: 28.4866804
+    lng: -16.3165136
+  - name: Santa Cruz de Tenerife
+    lat: 28.4633601
+    lng: -16.2502511
+  # ANDORRA
+  - name: Encamp
+    lat: 42.5347264
+    lng: 1.5804958
+  - name: El Tarter
+    lat: 42.5796536
+    lng: 1.6518258
   # GREECE
   - name: Athens
     lat: 37.9838

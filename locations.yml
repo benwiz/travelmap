@@ -474,6 +474,20 @@ locations:
   - name: Dubrovnik
     lat: 42.6409191
     lng: 18.1086337
+  # MONTENEGRO
+  - name: Kotor
+    lat: 42.4223875
+    lng: 18.7700934
+  # ALBANIA
+  - name: Tirana
+    lat: 41.3333813
+    lng: 19.8184871
+  - name: Berat
+    lat: 40.7099475
+    lng: 19.9461447
+  - name: Korçë
+    lat: 40.6154823
+    lng: 20.7791856
   # FRANCE
   - name: Paris
     lat: 48.8566

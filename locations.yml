@@ -488,6 +488,19 @@ locations:
   - name: Korçë
     lat: 40.6154823
     lng: 20.7791856
+  - name: Gjirokastër
+    lat: 40.0819243
+    lng: 20.1421084
+  - name: Himarë
+    lat: 40.0925399
+    lng: 19.7561099
+  # NORTH MACEDONIA
+  - name: Ohrid
+    lat: 41.1140083
+    lng: 20.7947315
+  - name: Skopje
+    lat: 41.99587
+    lng: 21.4311834
   # FRANCE
   - name: Paris
     lat: 48.8566

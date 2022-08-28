@@ -535,6 +535,15 @@ locations:
   - name: Pisa
     lat: 43.7228
     lng: 10.4017
+  - name: Cagliari
+    lat: 39.2163176
+    lng: 9.1142342
+  - name: Alghero
+    lat: 40.5580531
+    lng: 8.3136803
+  - name: San Pietro a Mare
+    lat: 40.9295128
+    lng: 8.8044959
   # THE VATICAN
   - name: The Vatican
     lat: 41.902246

@@ -494,6 +494,9 @@ locations:
   - name: Himarë
     lat: 40.0925399
     lng: 19.7561099
+  - name: Gjipe
+    lat: 40.1272873
+    lng: 19.6708073
   # NORTH MACEDONIA
   - name: Ohrid
     lat: 41.1140083

@@ -1,4 +1,4 @@
-# google maps is stupid, do not use the coords from the url, they represent the center of the viewport
+# if using google maps, the coords from the url represent the center of the viewport not the selected pin on the map
 locations:
   # USA
   - name: San Francisco

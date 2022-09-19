@@ -491,6 +491,9 @@ locations:
   - name: Gjirokastër
     lat: 40.0819243
     lng: 20.1421084
+  - name: Përmet
+    lat: 40.2342528
+    lng: 20.3566496
   - name: Himarë
     lat: 40.0925399
     lng: 19.7561099
@@ -762,6 +765,13 @@ locations:
   - name: Waitomo Caves
     lat: -38.2615
     lng: 175.1145
+  # TURKEY
+  - name: Antalya
+    lat: 36.8851549
+    lng: 30.7049699
+  - name: Olympos
+    lng: 36.391102
+    lng: 30.4688805
   # ISRAEL
   - name: Tel Aviv
     lat: 32.0853

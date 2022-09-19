@@ -770,7 +770,7 @@ locations:
     lat: 36.8851549
     lng: 30.7049699
   - name: Olympos
-    lng: 36.391102
+    lat: 36.391102
     lng: 30.4688805
   # ISRAEL
   - name: Tel Aviv

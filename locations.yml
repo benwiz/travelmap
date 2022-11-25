@@ -772,6 +772,15 @@ locations:
   - name: Olympos
     lat: 36.391102
     lng: 30.4688805
+  - name: Kaş
+    lat: 36.1933921
+    lng: 29.5939342
+  - name: Butterfly Valley
+    lat: 36.4973114
+    lng: 29.1271497
+  - name: Fethiye
+    lat: 36.6217857
+    lng: 29.1085011
   # ISRAEL
   - name: Tel Aviv
     lat: 32.0853

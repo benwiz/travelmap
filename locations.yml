@@ -308,6 +308,9 @@ locations:
   - name: Tulum Ruins
     lat: 20.2150862
     lng: -87.4316555
+  - name: Mexico City
+    lat: 19.4361782
+    lng: -99.1311225
   # USVI
   - name: St. Thomas
     lat: 18.3381

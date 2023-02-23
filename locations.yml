@@ -610,6 +610,9 @@ locations:
   - name: Rondaa
     lat: 36.7461498
     lng: -5.1611482
+  - name: Granollers
+    lat: 41.6061185
+    lng: 2.2854625
   - name: Roses
     lat: 42.262970
     lng: 3.174800
@@ -683,6 +686,9 @@ locations:
   - name: Castissent
     lat: 42.1250865
     lng: 0.7308124
+  - name: Pamplona
+    lat: 42.8143521
+    lng: -1.6471309
   - name: Donostia-San Sebastian
     lat: 43.3224219
     lng: -1.9838889

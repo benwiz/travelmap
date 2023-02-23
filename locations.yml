@@ -695,6 +695,9 @@ locations:
   - name: Gijón
     lat: 43.5437683
     lng: -5.6630768
+  - name: Oviedo
+    lat: 43.3622024
+    lng: -5.8523012
   - name: LLuarca
     lat: 43.5449603
     lng: -6.5344611

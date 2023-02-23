@@ -311,6 +311,18 @@ locations:
   - name: Mexico City
     lat: 19.4361782
     lng: -99.1311225
+  - name: Mérida
+    lat: 20.9727191
+    lng: -89.6231908
+  - name: Valladolid
+    lat: 20.6900828
+    lng: -88.2022517
+  - name: Holbox
+    lat: 21.5230348
+    lng: -87.3805604
+  - name: Chichén Itzá
+    lat: 20.6777187
+    lng: -88.5673126
   # USVI
   - name: St. Thomas
     lat: 18.3381
@@ -615,6 +627,12 @@ locations:
   - name: Sant Feliu de Guíxols
     lat: 41.7812297
     lng: 3.0306895
+  - name: Sitges
+    lat: 41.2364765
+    lng: 1.8071488
+  - name: Girona
+    lat: 41.9710537
+    lng: 2.8087866
   - name: Tarragona
     lat: 41.118881
     lng: 1.244491
@@ -628,16 +646,16 @@ locations:
     lng: 0.9301405
     dates: [2021-11-06]
   - name: Falset
-    lat: 41.0590006
-    lng: 0.6629052
+    lat: 41.1455986
+    lng: 0.8175205
     dates: [2021-11-07]
   - name: Gratallops
-    lat: 41.1448695
-    lng: 0.8164403
+    lat: 41.1929273
+    lng: 0.7762284
     dates: [2021-11-07]
   - name: Lleida
-    lat: 41.364527
-    lng: 0.5608104
+    lat: 41.6191179
+    lng: 0.6183784
     dates: [2021-11-07]
   - name: Vallbona de les Monges
     lat: 41.525641
@@ -647,6 +665,18 @@ locations:
     lat: 41.3743551
     lng: 1.1615659
     dates: [2021-11-08]
+  - name: Valls
+    lat: 41.284862
+    lng: 1.2462684
+  - name: Mont-rebei
+    lat: 42.0825308
+    lng: 0.682148
+  - name: Solsona
+    lat: 41.9935049
+    lng: 1.515721
+  - name: Castissent
+    lat: 42.1250865
+    lng: 0.7308124
   - name: Donostia-San Sebastian
     lat: 43.3224219
     lng: -1.9838889
@@ -769,6 +799,9 @@ locations:
     lat: -38.2615
     lng: 175.1145
   # TURKEY
+  - name: Istanbul
+    lat: 41.0076514
+    lng: 28.9767881
   - name: Antalya
     lat: 36.8851549
     lng: 30.7049699

@@ -314,6 +314,9 @@ locations:
   - name: Mérida
     lat: 20.9727191
     lng: -89.6231908
+  - name: Progreso
+    lat: 21.3064673
+    lng: -89.7045794
   - name: Valladolid
     lat: 20.6900828
     lng: -88.2022517

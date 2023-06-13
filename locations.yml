@@ -487,6 +487,19 @@ locations:
   - name: Bucharest
     lat: 44.4268
     lng: 26.1025
+  # MOLDOVA
+  - name: Chişinău
+    lat: 47.025691
+    lng: 28.8341654
+  - name: Old Orhei
+    lat: 47.3126853
+    lng: 28.9712762
+  - name: Tiraspol
+    lat: 46.8388433
+    lng: 29.6117722
+  - name: Saharna
+    lat: 47.6959459
+    lng: 28.961779
   # BOSNIA & HERZEGOVINA
   - name: Sarajevo
     lat: 43.8519774

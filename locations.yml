@@ -266,6 +266,15 @@ locations:
   - name: Beaver Creek
     lat: 39.6042
     lng: -106.5165
+  - name: Vail
+    lat: 39.6130444
+    lng: -106.3677136
+  - name: Keystone
+    lat: 39.5783877
+    lng: -105.9413878
+  - name: Arapahoe Basin
+    lat: 39.6341278
+    lng: -105.8731853
   - name: Telluride
     lat: 37.9375
     lng: -107.8123

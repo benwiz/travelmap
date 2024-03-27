@@ -450,7 +450,7 @@ locations:
   - name: Aarhus
     lat: 56.1781797
     lng: 10.1119353
-  - nane: Jelling
+  - name: Jelling
     lat: 55.7817973
     lng: 9.3481958
   - name: LegoLand
@@ -465,7 +465,7 @@ locations:
   - name: Skibby
     lat: 55.762771
     lng: 11.8681557
-  - nane: Roskilde
+  - name: Roskilde
     lat: 55.6702573
     lng: 11.9412246
   # NETHERLANDS

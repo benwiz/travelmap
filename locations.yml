@@ -311,7 +311,7 @@ locations:
   - name: White Mountains National Forest
     lat: 44.1471841
     lng: -71.4613182
-  - name: Acadia National Park # TODO location is just a tiny bit off
+  - name: Acadia National Park
     lat: 44.3193593
     lng: -68.3668492
   # MEXICO
@@ -395,6 +395,9 @@ locations:
   - name: Lake District
     lat: 54.4431175
     lng: -2.9966498
+  - name: Birmingham
+    lat: 52.4862
+    lng: -1.8904
   # SCOTLAND
   - name: Edinburgh
     lat: 55.9533
@@ -1077,3 +1080,24 @@ locations:
   - name: Bogota
     lat: 4.597140
     lng: -74.069691
+  # BULGARIA
+  - name: Sofia
+    lat: 42.6977
+    lng: 23.3219
+  # CHILE
+  - name: Santiago
+    lat: -33.4489
+    lng: -70.6693
+  - name: San Pedro de Atacama
+    lat: -22.9087
+    lng: -68.1997
+  - name: El Paraíso
+    lat: -33.0458
+    lng: -71.3722
+  - name: Matetic Vineyards
+    lat: -33.8647
+    lng: -71.4853
+  # ARGENTINA
+  - name: Ushuaia
+    lat: -54.8019
+    lng: -68.303

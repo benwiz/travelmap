@@ -55,7 +55,7 @@ Panama City Beach,30.2099316,-85.8688339
 Key West,24.5551,-81.78
 Miami,25.8145363,-80.1954426
 Asheville,35.5951,-82.5515
-"Washington, D.C.",38.9072,-77.0369
+Washington, D.C.,38.9072,-77.0369
 Philadelphia,39.9526,-75.1652
 New York City,40.7128,-74.006
 Garden City,40.7268,-73.6343
@@ -127,6 +127,7 @@ Oxford,51.751727,-1.253653
 Bath,51.3792838,-2.3597957
 Manchester,53.4811402,-2.2410562
 Lake District,54.4431175,-2.9966498
+Birmingham,52.4862,-1.8904
 Edinburgh,55.9533,-3.1883
 St Andrews,56.3398,-2.7967
 Islay,55.7363,-6.1771
@@ -338,3 +339,9 @@ Medellin,6.24978,-75.587447
 Jardin,5.59283,-75.815834
 Salento,4.637274,-75.569813
 Bogota,4.59714,-74.069691
+Sofia,42.6977,23.3219
+Santiago,-33.4489,-70.6693
+San Pedro de Atacama,-22.9087,-68.1997
+El Paraíso,-33.0458,-71.3722
+Matetic Vineyards,-33.8647,-71.4853
+Ushuaia,-54.8019,-68.303

@@ -71,9 +71,3 @@ The terrain height is given in the form of nlon by nlat grid cells of the specif
 
 - Later
   - Google Timeline or Overland locations
-
-- Locations
-  - Ask Mom about locations we visited in France - I think I'm missing one or two places in central France
-  - Ask Mom about locations we visited in Costa Rica
-  - Check one of my old passports for the various Carribbean islands
-  - Ask Dad which Florida key we were on for Grandma's birthday, currently set to Key West

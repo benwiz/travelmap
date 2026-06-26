@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Ben Wiz's travelmap.">
-    <link ref="canonical" href="https://benwiz.com/travelmap">
-    <title>Travelmap | Ben Wiz</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Places Ben Wiz has traveled.">
+  <title>benwiz travels</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="map"></div>
+  <a id="brand" href="https://benwiz.com" target="_blank" rel="noopener">benwiz</a>
+  <div id="stat"></div>
+  <div id="toast"></div>
 
-    <link rel="shortcut icon" href="assets/hat.png" type="image/x-icon">
-  </head>
-  <body>
-
-    <iframe src="https://www.arcgis.com/apps/instant/basic/index.html?appid=14f2f6bce05a4eacbb242c359bd7b8ea"
-            width="100vw"
-            height="100vh"
-            <!-- style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;" -->
-            frameborder="0"
-            style="border:0"
-            allowfullscreen>
-      iFrames are not supported on this page.
-    </iframe>
-
-  </body>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <script src="index.js"></script>
+</body>
 </html>
